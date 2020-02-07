@@ -25,6 +25,7 @@ function deepestChild() {
   while (true) {
     console.log(current);
     console.log(next);
+    
     if (current.innerHTML === 'boo!') {
       console.log(current);
       return current;
