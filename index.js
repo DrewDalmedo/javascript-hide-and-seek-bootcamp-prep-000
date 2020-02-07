@@ -23,7 +23,7 @@ function deepestChild() {
   let next = [];
   
   while (true) {
-    if (current.innerHTML !== null) {
+    if (current.innerHTML !== '') {
       console.log(current);
       return current;
     }
