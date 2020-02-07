@@ -31,19 +31,16 @@ function deepestChild() {
   let next = [];
   
   while (true) {
-    console.log(current);
-    console.log(next);
     
-    if (current.childNodes.length === 0) {
+    if (current.childNodes.length === 0 || current.childNodes.length === null) {
       console.log(current);
       return current;
     }
-    
-    if (Array.isArray(current)) {
-      next = current[0];
+    else {
+      next = current.childNodes;
     }
     
-    current = next[0];
+    current = ;
   }
   */
   
