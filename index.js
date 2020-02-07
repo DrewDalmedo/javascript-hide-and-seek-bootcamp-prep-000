@@ -18,7 +18,7 @@ function increaseRankBy(n) {
 
 // returns the most deeply nested child in #grand-node
 function deepestChild() {
-  let grandNode = document.querySelectorAll('#grand-node');
+  let grandNode = document.getElementById('app').querySelectorAll('#grand-node');
   let current = grandNode[0];
   let next = [];
   
