@@ -40,7 +40,7 @@ function deepestChild() {
       next = current.childNodes;
     }
     
-    current = ;
+    current = next.shift();
   }
   */
   
