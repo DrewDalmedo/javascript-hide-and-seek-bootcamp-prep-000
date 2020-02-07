@@ -22,7 +22,9 @@ function deepestChild() {
   
   let temp = [];
   
-  
+  while (temp || temp === 0) {
+    
+  }
   
   for (let i = 0; i < grandNode.length; i++){
     
