@@ -26,7 +26,7 @@ function deepestChild() {
     console.log(current);
     console.log(next);
     
-    if (current) {
+    if (current.) {
       console.log(current);
       return current;
     }
