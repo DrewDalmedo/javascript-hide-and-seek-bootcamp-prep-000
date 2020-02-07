@@ -25,10 +25,11 @@ function deepestChild() {
   let next = grandNode[0].childNodes;
   console.log(next);
   
-  /*
   while (true) {
     
-    
+    for (let i = 0; i < current.length; i++){
+      
+    }
     
     if (current.hasChildNodes() === false) {
       console.log(current);
