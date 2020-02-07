@@ -26,14 +26,14 @@ function deepestChild() {
     console.log(current);
     console.log(next);
     
-    if (current.) {
+    if (current.childNodes.length === 0) {
       console.log(current);
       return current;
     }
     
     if (Array.isArray(current)) {
       for (let i = 0; i < current.length; i++) {
-        next = current.map()
+        next = 
       }
     }
     
