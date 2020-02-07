@@ -21,6 +21,7 @@ function deepestChild() {
   let grandNode = document.getElementById('app').querySelector('#grand-node');
   
   console.log((typeof(grandNode)));
+  console.log(grandNode.toString());
   return grandNode;
   
   /*
