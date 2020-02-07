@@ -23,6 +23,10 @@ function deepestChild() {
   let current = grandNode
   let next = [];
   
+  next = grandNode.childNodes;
+  console.log(next);
+  
+  /*
   while (true) {
     
     
@@ -39,5 +43,6 @@ function deepestChild() {
     console.log(next);
     current = next.shift();
   }
+  */
   
 }
