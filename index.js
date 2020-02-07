@@ -28,7 +28,9 @@ function deepestChild() {
   while (true) {
     
     for (let i = 0; i < current.length; i++){
-      
+      if (Array.isArray(current)) {
+        
+      }
     }
     
     if (current.hasChildNodes() === false) {
