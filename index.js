@@ -23,6 +23,7 @@ function deepestChild() {
   let next = [];
   
   while (true) {
+    
     if (current.innerHTML === 'boo!') {
       console.log(current);
       return current;
