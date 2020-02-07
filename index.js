@@ -22,12 +22,13 @@ function deepestChild() {
   
   let temp = [];
   
-  while (temp || temp === 0) {
-    if (typeof temp === 'HTML')
-  }
-  
-  for (let i = 0; i < grandNode.length; i++){
-    
+  while(true) {
+    if(temp.children.length === 0) {
+      return temp;
+    }
+    else {
+      temp = temp.children[0];
+    }
   }
   
 }
