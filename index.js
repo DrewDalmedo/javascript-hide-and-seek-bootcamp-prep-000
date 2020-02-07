@@ -25,7 +25,7 @@ function deepestChild() {
   
   while (true) {
     
-    if (current.childNodes.length === 0 || current.childNodes.length === null) {
+    if (current.hasChildNodes() === false) {
       console.log(current);
       return current;
     }
