@@ -23,7 +23,7 @@ function deepestChild() {
   let temp = [];
   
   while(true) {
-    if(temp.children.length === 0) {
+    if(temp.children.length === 0 || temp.children === null) {
       return temp;
     }
     else {
