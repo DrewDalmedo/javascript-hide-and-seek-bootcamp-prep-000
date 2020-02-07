@@ -27,9 +27,10 @@ function deepestChild() {
   
   while (true) {
     
+    /*
     for (let i = 0; i < current.length; i++){
       
-    }
+    }*/
     
     if (current.hasChildNodes() === false) {
       console.log(current);
