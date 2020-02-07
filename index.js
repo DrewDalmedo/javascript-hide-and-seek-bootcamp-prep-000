@@ -21,7 +21,7 @@ function deepestChild() {
   let grandNode = document.getElementById('app').querySelectorAll('#grand-node');
   
   let current = [...grandNode];
-  return grandNode;
+  return current;
   
   /*
   let current = grandNode
