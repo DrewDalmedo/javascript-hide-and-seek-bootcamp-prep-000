@@ -29,7 +29,7 @@ function deepestChild() {
     }
     else {
       for (let i = 0; i < current.length; i++) {
-        next.push(current.querySelector('div'));
+        next.push(current[0]);
       }
     }
     
