@@ -22,7 +22,7 @@ function deepestChild() {
   
   let current = grandNode;
   console.log(current)
-  let next = grandNode.childNodes;
+  let next = grandNode[0].childNodes;
   console.log(next);
   
   /*
