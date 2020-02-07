@@ -27,7 +27,7 @@ function deepestChild() {
       console.log(current);
       return current;
     }
-    if () {
+    if (Array.isArray) {
       for (let i = 0; i < current.length; i++) {
         console.log(`node ${i}`);
         next.push(current[0]);
