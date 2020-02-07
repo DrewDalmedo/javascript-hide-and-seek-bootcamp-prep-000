@@ -32,9 +32,7 @@ function deepestChild() {
     }
     
     if (Array.isArray(current)) {
-      for (let i = 0; i < current.length; i++) {
-        next = current[0];
-      }
+      next = current[0];
     }
     
     current = next.shift();
