@@ -25,14 +25,18 @@ function deepestChild() {
   
   while (true) {
     
+    
+    
     if (current.hasChildNodes() === false) {
       console.log(current);
       return current;
     }
     else {
+      console.log(current);
       next = current.childNodes;
     }
     
+    console.log(next);
     current = next.shift();
   }
   
