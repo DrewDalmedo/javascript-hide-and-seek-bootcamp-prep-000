@@ -44,6 +44,5 @@ function deepestChild() {
     console.log(next);
     current = next.shift();
   }
-  */
   
 }
